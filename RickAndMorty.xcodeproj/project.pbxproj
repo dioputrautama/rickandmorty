@@ -11,6 +11,17 @@
 		163B10DD2C6DE47500A17382 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163B10DC2C6DE47500A17382 /* ContentView.swift */; };
 		163B10DF2C6DE47800A17382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163B10DE2C6DE47800A17382 /* Assets.xcassets */; };
 		163B10E22C6DE47800A17382 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163B10E12C6DE47800A17382 /* Preview Assets.xcassets */; };
+		163B10EC2C6DE7CC00A17382 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163B10EB2C6DE7CC00A17382 /* HomeView.swift */; };
+		163B10EF2C6DE7FC00A17382 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163B10EE2C6DE7FC00A17382 /* Colors.swift */; };
+		163B10F22C6DE81D00A17382 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163B10F12C6DE81D00A17382 /* Color+Ext.swift */; };
+		163B10F42C6DF5E400A17382 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163B10F32C6DF5E400A17382 /* Typography.swift */; };
+		163B10FC2C6DF64800A17382 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 163B10F52C6DF64800A17382 /* NotoSans-Bold.ttf */; };
+		163B10FD2C6DF64800A17382 /* NotoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 163B10F62C6DF64800A17382 /* NotoSans-ExtraBold.ttf */; };
+		163B10FE2C6DF64800A17382 /* NotoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 163B10F72C6DF64800A17382 /* NotoSans-Light.ttf */; };
+		163B10FF2C6DF64800A17382 /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 163B10F82C6DF64800A17382 /* NotoSans-Medium.ttf */; };
+		163B11002C6DF64800A17382 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 163B10F92C6DF64800A17382 /* NotoSans-Regular.ttf */; };
+		163B11012C6DF64800A17382 /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 163B10FA2C6DF64800A17382 /* NotoSans-SemiBold.ttf */; };
+		163B11042C6DFA6A00A17382 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163B11032C6DFA6A00A17382 /* Assets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,18 @@
 		163B10DC2C6DE47500A17382 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		163B10DE2C6DE47800A17382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		163B10E12C6DE47800A17382 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		163B10EB2C6DE7CC00A17382 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		163B10EE2C6DE7FC00A17382 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		163B10F12C6DE81D00A17382 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		163B10F32C6DF5E400A17382 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		163B10F52C6DF64800A17382 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		163B10F62C6DF64800A17382 /* NotoSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		163B10F72C6DF64800A17382 /* NotoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Light.ttf"; sourceTree = "<group>"; };
+		163B10F82C6DF64800A17382 /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		163B10F92C6DF64800A17382 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		163B10FA2C6DF64800A17382 /* NotoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		163B11022C6DF65300A17382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		163B11032C6DFA6A00A17382 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,10 @@
 		163B10D92C6DE47500A17382 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
+				163B11022C6DF65300A17382 /* Info.plist */,
+				163B10F02C6DE81200A17382 /* Extensions */,
+				163B10E82C6DE70800A17382 /* Modules */,
+				163B10ED2C6DE7E300A17382 /* Assets */,
 				163B10DA2C6DE47500A17382 /* RickAndMortyApp.swift */,
 				163B10DC2C6DE47500A17382 /* ContentView.swift */,
 				163B10DE2C6DE47800A17382 /* Assets.xcassets */,
@@ -65,6 +92,62 @@
 				163B10E12C6DE47800A17382 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		163B10E82C6DE70800A17382 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				163B11052C6DFF6000A17382 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		163B10ED2C6DE7E300A17382 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				163B10FB2C6DF64800A17382 /* Fonts */,
+				163B10EE2C6DE7FC00A17382 /* Colors.swift */,
+				163B10F32C6DF5E400A17382 /* Typography.swift */,
+				163B11032C6DFA6A00A17382 /* Assets.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		163B10F02C6DE81200A17382 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				163B10F12C6DE81D00A17382 /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		163B10FB2C6DF64800A17382 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				163B10F52C6DF64800A17382 /* NotoSans-Bold.ttf */,
+				163B10F62C6DF64800A17382 /* NotoSans-ExtraBold.ttf */,
+				163B10F72C6DF64800A17382 /* NotoSans-Light.ttf */,
+				163B10F82C6DF64800A17382 /* NotoSans-Medium.ttf */,
+				163B10F92C6DF64800A17382 /* NotoSans-Regular.ttf */,
+				163B10FA2C6DF64800A17382 /* NotoSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		163B11052C6DFF6000A17382 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				163B11062C6DFF6600A17382 /* Views */,
+				163B10EB2C6DE7CC00A17382 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		163B11062C6DFF6600A17382 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +208,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163B10FC2C6DF64800A17382 /* NotoSans-Bold.ttf in Resources */,
+				163B10FE2C6DF64800A17382 /* NotoSans-Light.ttf in Resources */,
+				163B11012C6DF64800A17382 /* NotoSans-SemiBold.ttf in Resources */,
+				163B10FF2C6DF64800A17382 /* NotoSans-Medium.ttf in Resources */,
+				163B10FD2C6DF64800A17382 /* NotoSans-ExtraBold.ttf in Resources */,
 				163B10E22C6DE47800A17382 /* Preview Assets.xcassets in Resources */,
 				163B10DF2C6DE47800A17382 /* Assets.xcassets in Resources */,
+				163B11002C6DF64800A17382 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +226,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163B10EC2C6DE7CC00A17382 /* HomeView.swift in Sources */,
+				163B11042C6DFA6A00A17382 /* Assets.swift in Sources */,
+				163B10EF2C6DE7FC00A17382 /* Colors.swift in Sources */,
 				163B10DD2C6DE47500A17382 /* ContentView.swift in Sources */,
 				163B10DB2C6DE47500A17382 /* RickAndMortyApp.swift in Sources */,
+				163B10F42C6DF5E400A17382 /* Typography.swift in Sources */,
+				163B10F22C6DE81D00A17382 /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +369,13 @@
 				DEVELOPMENT_TEAM = LVTG6796C5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RickAndMorty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +400,13 @@
 				DEVELOPMENT_TEAM = LVTG6796C5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RickAndMorty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
