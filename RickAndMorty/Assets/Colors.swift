@@ -11,4 +11,6 @@ class Colors {
     static let background: Color = Color("Background")
     static let shark: Color = Color("Shark")
     static let white: Color = Color("White")
+    static let gray: Color = Color("Gray")
+    static let mainBlue: Color = Color("MainBlue")
 }
