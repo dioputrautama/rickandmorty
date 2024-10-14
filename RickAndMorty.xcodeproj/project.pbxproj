@@ -22,10 +22,15 @@
 		163B11002C6DF64800A17382 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 163B10F92C6DF64800A17382 /* NotoSans-Regular.ttf */; };
 		163B11012C6DF64800A17382 /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 163B10FA2C6DF64800A17382 /* NotoSans-SemiBold.ttf */; };
 		163B11042C6DFA6A00A17382 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163B11032C6DFA6A00A17382 /* Assets.swift */; };
+		1644E6952C75E54900E234FB /* ExploreEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1644E6942C75E54900E234FB /* ExploreEntity.swift */; };
+		1644E6982C75FC6000E234FB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1644E6972C75FC6000E234FB /* NetworkManager.swift */; };
 		16592CBB2C748CE000CD50DF /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16592CBA2C748CE000CD50DF /* MainTabView.swift */; };
 		16592CBD2C748EAB00CD50DF /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16592CBC2C748EAB00CD50DF /* CustomTabBarView.swift */; };
 		169D95522C74A76C00E8D321 /* CharacterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169D95512C74A76C00E8D321 /* CharacterCardView.swift */; };
 		169D95562C74F0D700E8D321 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169D95552C74F0D700E8D321 /* ExploreView.swift */; };
+		16A435F32CBCDFA900EAB6DF /* PuzzlePiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A435F22CBCDFA900EAB6DF /* PuzzlePiece.swift */; };
+		16C75A882CB90530004DDD5E /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C75A872CB90530004DDD5E /* PuzzleView.swift */; };
+		16C75A8A2CB905A1004DDD5E /* PuzzleVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C75A892CB905A1004DDD5E /* PuzzleVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,10 +51,15 @@
 		163B10FA2C6DF64800A17382 /* NotoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		163B11022C6DF65300A17382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		163B11032C6DFA6A00A17382 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		1644E6942C75E54900E234FB /* ExploreEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreEntity.swift; sourceTree = "<group>"; };
+		1644E6972C75FC6000E234FB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		16592CBA2C748CE000CD50DF /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		16592CBC2C748EAB00CD50DF /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		169D95512C74A76C00E8D321 /* CharacterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardView.swift; sourceTree = "<group>"; };
 		169D95552C74F0D700E8D321 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		16A435F22CBCDFA900EAB6DF /* PuzzlePiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzlePiece.swift; sourceTree = "<group>"; };
+		16C75A872CB90530004DDD5E /* PuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
+		16C75A892CB905A1004DDD5E /* PuzzleVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +92,11 @@
 		163B10D92C6DE47500A17382 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				163B11022C6DF65300A17382 /* Info.plist */,
-				163B10F02C6DE81200A17382 /* Extensions */,
-				163B10E82C6DE70800A17382 /* Modules */,
 				163B10ED2C6DE7E300A17382 /* Assets */,
+				163B10E82C6DE70800A17382 /* Modules */,
+				163B10F02C6DE81200A17382 /* Extensions */,
+				1644E6962C75FC4B00E234FB /* Network */,
+				163B11022C6DF65300A17382 /* Info.plist */,
 				163B10DA2C6DE47500A17382 /* RickAndMortyApp.swift */,
 				163B10DC2C6DE47500A17382 /* ContentView.swift */,
 				163B10DE2C6DE47800A17382 /* Assets.xcassets */,
@@ -105,6 +116,7 @@
 		163B10E82C6DE70800A17382 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				16C75A852CB90517004DDD5E /* Games */,
 				169D95542C74F0CB00E8D321 /* Explore */,
 				16592CB72C748BBA00CD50DF /* MainTabView */,
 				163B11052C6DFF6000A17382 /* Home */,
@@ -161,6 +173,22 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		1644E6932C75E53300E234FB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1644E6942C75E54900E234FB /* ExploreEntity.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1644E6962C75FC4B00E234FB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1644E6972C75FC6000E234FB /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		16592CB72C748BBA00CD50DF /* MainTabView */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,9 +209,52 @@
 		169D95542C74F0CB00E8D321 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				1644E6932C75E53300E234FB /* Data */,
 				169D95552C74F0D700E8D321 /* ExploreView.swift */,
 			);
 			path = Explore;
+			sourceTree = "<group>";
+		};
+		16A435EF2CBCDF8000EAB6DF /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				16C75A892CB905A1004DDD5E /* PuzzleVM.swift */,
+				16C75A872CB90530004DDD5E /* PuzzleView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		16A435F02CBCDF8D00EAB6DF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				16A435F22CBCDFA900EAB6DF /* PuzzlePiece.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		16A435F12CBCDF9400EAB6DF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		16C75A852CB90517004DDD5E /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				16C75A862CB9051B004DDD5E /* Puzzle */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		16C75A862CB9051B004DDD5E /* Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				16A435F12CBCDF9400EAB6DF /* Domain */,
+				16A435F02CBCDF8D00EAB6DF /* Data */,
+				16A435EF2CBCDF8000EAB6DF /* Presentation */,
+			);
+			path = Puzzle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,10 +339,15 @@
 				163B10EF2C6DE7FC00A17382 /* Colors.swift in Sources */,
 				16592CBB2C748CE000CD50DF /* MainTabView.swift in Sources */,
 				163B10DD2C6DE47500A17382 /* ContentView.swift in Sources */,
+				1644E6952C75E54900E234FB /* ExploreEntity.swift in Sources */,
 				163B10DB2C6DE47500A17382 /* RickAndMortyApp.swift in Sources */,
 				169D95522C74A76C00E8D321 /* CharacterCardView.swift in Sources */,
+				16C75A8A2CB905A1004DDD5E /* PuzzleVM.swift in Sources */,
 				16592CBD2C748EAB00CD50DF /* CustomTabBarView.swift in Sources */,
+				16C75A882CB90530004DDD5E /* PuzzleView.swift in Sources */,
+				16A435F32CBCDFA900EAB6DF /* PuzzlePiece.swift in Sources */,
 				163B10F42C6DF5E400A17382 /* Typography.swift in Sources */,
+				1644E6982C75FC6000E234FB /* NetworkManager.swift in Sources */,
 				163B10F22C6DE81D00A17382 /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +497,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-dead_strip";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dioputra.RickAndMorty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -452,6 +529,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-dead_strip";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dioputra.RickAndMorty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
